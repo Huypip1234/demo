@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply text-white bg-primary rounded-full py-[14px] px-[16px] transition-all hover:bg-white hover:text-black;
+  }
+  .input-primary {
+    @apply border-[#bac7ca] border-[1.5px] rounded-[4px] focus:outline-primary px-[0.6rem] py-[0.5rem];
+  }
+  .container {
+    @apply max-w-[1200px];
+  }
+}
