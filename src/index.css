@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;ssssssssssssssssssssssssssssssssssssssss
 
 @layer base {
   body {
@@ -12,8 +12,11 @@
   .btn-primary {
     @apply text-white bg-primary rounded-full py-[14px] px-[16px] transition-all hover:bg-white hover:text-black;
   }
+  .btn-secondary {
+    @apply border-[#bac7ca] border text-[#bac7ca] bg-white rounded-full py-[14px] px-[16px] transition-all hover:border-black hover:text-black;
+  }
   .input-primary {
-    @apply border-[#bac7ca] border-[1.5px] rounded-[4px] focus:outline-primary px-[0.6rem] py-[0.5rem];
+    @apply border-[#d0dfe3] border-[1.5px] rounded-[4px] focus:outline-[#bac7ca] px-[0.6rem] py-[0.5rem];
   }
   .container {
     @apply max-w-[1200px];
